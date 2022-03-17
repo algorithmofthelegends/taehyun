@@ -32,8 +32,12 @@ fun main() {
         var back = n.slice(IntRange(h + o, l - 1))
         var mid = n.slice(IntRange(h, h + o - 1))
 
+        // 앞을 뒤짚은 값이 뒤 보다 작을 경우
         if (sum(front.reversed()) <= sum(back)) {
+            // 앞 + 중간 을 배열로 만듭니다
             val arr = (front + mid).toCharArray().map { it.digitToInt() }.toMutableList()
+            // 위 배열에서 + 1 합니다
+            // 자리 올림이 생겼을 경우 다음 수 에도 +1
             for (i in arr.size - 1 downTo 0) {
                 val temp = arr[i] + 1
                 arr[i] = temp % 10
@@ -42,16 +46,21 @@ fun main() {
             }
 
             // 홀수 인 경우
+            // 앞+중간 에서 중간 값을 다시 복구 합니다
             if (o == 1) {
                 mid = arr[arr.size - 1].toString()
                 arr.removeAt(arr.size - 1)
             }
 
             // 올림이 있는 경우
+            // 중간 값에 올림이 일어난 수를 추가 합니다
             if (carry == 1) {
                 mid += arr[arr.size - 1].toString()
                 arr.removeAt(arr.size - 1)
             }
+
+            // 맨 앞 숫자에도 자리 올림이 있다면 1을 추가 합니다
+            // ex. 99 -> 100
             front = (if (carry == 1) "1" else "") + arr.joinToString("")
         }
 
