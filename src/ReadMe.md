@@ -10,6 +10,9 @@ url : https://www.acmicpc.net/
 입력
 ---
 
+출력
+---
+
 예제
 --
 

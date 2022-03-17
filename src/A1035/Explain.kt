@@ -17,7 +17,7 @@ fun main() {
                 piece.add(Pair(y, x))
     }
 
-    //  이동 거리의 최대값
+    //  이동 거리의 최소값
     var result = Int.MAX_VALUE
 
     // 기준점을 바꿔가며 최소 값을 구함
