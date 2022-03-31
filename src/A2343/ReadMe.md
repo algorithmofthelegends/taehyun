@@ -1,8 +1,10 @@
-보물
+기타 레슨
 ---
 
-date : 2022-02-28\
-url : https://www.acmicpc.net/problem/2343
+date : 2022-02-28   
+url : https://www.acmicpc.net/problem/2343   
+difficulty : Silver 1   
+status : fail
 
 문제
 ---

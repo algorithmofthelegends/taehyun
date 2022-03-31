@@ -10,13 +10,14 @@ fun main() {
     n = "54"
     n = "45"
     n = "201"
-    n = "9999"
     n = "54321"
-    n = "12345678901234567890123456789012345678901234567890"
     n = "100"
     n = "1"
     n = "11"
-    val result = if (n.length == 1)
+    n = "9"
+    n = "99999999999999999999999999999999999999999999999999"
+    n = "3999993"
+    val result = if (n.length == 1 && n.toInt() < 9)
         n.toInt() + 1
     else {
         // 길이
@@ -31,6 +32,11 @@ fun main() {
         var front = n.slice(IntRange(0, h - 1))
         var back = n.slice(IntRange(h + o, l - 1))
         var mid = n.slice(IntRange(h, h + o - 1))
+
+        println("h : $h")
+        println("front : $front")
+        println("mid : $mid")
+        println("back : $back")
 
         // 앞을 뒤짚은 값이 뒤 보다 작을 경우
         if (sum(front.reversed()) <= sum(back)) {

@@ -1,8 +1,10 @@
 완전 이진 트리
 ---
 
-date : 2022-02-07\
-url : https://www.acmicpc.net/problem/9934
+date : 2022-02-07   
+url : https://www.acmicpc.net/problem/9934   
+difficulty : Silver 1   
+status : success
 
 문제
 ---

@@ -3,10 +3,12 @@ package A1334
 import kotlin.math.pow
 
 fun main() {
-    val n = readLine()!!
-    val result = if (n.length == 1)
+    var n = readLine()!!
+    val result = if (n.length == 1 && n.toInt() < 9)
         n.toInt() + 1
     else {
+        if (n.length == 1)
+            n = "10"
         val l = n.length
         val h = l / 2
         val o = l % 2
