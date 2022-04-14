@@ -1,4 +1,4 @@
-package Temp
+package temp
 
 fun main() {
     val input = readLine()!!.split(" ").map{ it.toInt()}

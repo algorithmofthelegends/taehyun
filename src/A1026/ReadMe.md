@@ -1,8 +1,10 @@
 보물
 ---
 
-date : 2022-02-11\
-url : https://www.acmicpc.net/problem/1026
+date : 2022-02-11   
+url : https://www.acmicpc.net/problem/1026   
+difficulty : Silver 4   
+status : success
 
 문제
 ---

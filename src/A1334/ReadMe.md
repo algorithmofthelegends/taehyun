@@ -1,8 +1,10 @@
-제목
+다음 펠린드롬 수
 ---
 
-date : 2022-03-14\
-url : https://www.acmicpc.net/1334
+date : 2022-03-14   
+url : https://www.acmicpc.net/problem/1334   
+difficulty : Silver 2   
+status : fail
 
 문제
 ---

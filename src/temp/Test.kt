@@ -1,4 +1,4 @@
-package Temp
+package temp
 
 fun main() {
     val cnt = 9
