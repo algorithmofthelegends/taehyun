@@ -4,7 +4,7 @@
 date : 2022-5-5   
 url : https://www.acmicpc.net/problem/1577   
 difficulty : Gold 4   
-status : ready
+status : Fail
 
 문제
 ---
