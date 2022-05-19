@@ -15,3 +15,7 @@ fun <T> printlnArray(r: Array<List<T>>) {
 fun <T> printlnArray(r: Array<Array<T>>) {
     r.forEach { printArray(it) }
 }
+
+fun <T> printlnArray(r: List<Array<T>>) {
+    r.forEach { printArray(it) }
+}
