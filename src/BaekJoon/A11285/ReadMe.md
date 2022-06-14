@@ -1,10 +1,10 @@
-곰곰이와 자판기
+초성 중성 종성 2
 ---
 
-date : 2022-06-09   
-url : https://www.acmicpc.net/problem/25200   
-difficulty : Gold 1    
-status : fail
+date : 2022-06-10   
+url : https://www.acmicpc.net/problem/11285   
+difficulty : Bronze 1    
+status : success
 
 문제
 ---
@@ -20,41 +20,60 @@ status : fail
 
 예제
 --
-![img_3.png](img_3.png)
 
 ### 1)
 - input
 ```
-5 4
-1 3
-3 2
-4 3
-2 4
+ㄱ
+ㅏ
+
 ```
 
 - output
 ```
-4 4 4 3 5
+가
 ```
 
 ### 2)
 
 - input
 ```
+ㄷ
+ㅏ
+ㄺ
 ```
 
 - output
 ```
+닭
 ```
 
 ### 3)
 
 - input
 ```
+ㅂ
+ㅐ
+ㄱ
 ```
 
 - output
 ```
+백
+```
+
+### 3)
+
+- input
+```
+ㅈ
+ㅜ
+ㄴ
+```
+
+- output
+```
+준
 ```
 
 풀이

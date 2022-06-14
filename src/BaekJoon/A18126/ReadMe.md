@@ -1,10 +1,10 @@
-곰곰이와 자판기
+너구리 구구
 ---
 
-date : 2022-06-09   
-url : https://www.acmicpc.net/problem/25200   
-difficulty : Gold 1    
-status : fail
+date : 2022-06-13   
+url : https://www.acmicpc.net/problem/18126   
+difficulty : Silver 2    
+status : success
 
 문제
 ---
@@ -20,43 +20,48 @@ status : fail
 
 예제
 --
-![img_3.png](img_3.png)
 
 ### 1)
+
 - input
+
 ```
-5 4
-1 3
-3 2
-4 3
-2 4
+4
+1 2 3
+2 3 2
+2 4 4
 ```
 
 - output
+
 ```
-4 4 4 3 5
+7
 ```
 
 ### 2)
 
 - input
+
 ```
 ```
 
 - output
+
 ```
 ```
 
 ### 3)
 
 - input
+
 ```
 ```
 
 - output
+
 ```
 ```
 
 풀이
 ---
-
+dfs 를 이용
